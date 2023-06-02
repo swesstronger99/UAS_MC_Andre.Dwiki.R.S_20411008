@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/login"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="170dp"
+            android:padding="20dp">
+
+
+            <EditText
+                android:id="@+id/email_login"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/navi_border"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:padding="8dp"
+                android:textColor="@color/navi"
+                android:layout_gravity="center">
+            </EditText>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:id="@+id/password_login"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/navi_border"
+                android:padding="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/navi"
+                android:layout_gravity="center">
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ganti_password"
+                android:text="Forget Password"
+                android:layout_gravity="right"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:textSize="20dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:text="LOGIN"
+                android:id="@+id/btn_login"
+                android:textSize="18dp"
+                app:cornerRadius ="30dp"
+                android:layout_gravity="center">
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerRedirectText"
+                android:text="Not yet Sigup?    Register"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:textSize="20dp"
+                android:textColor="@color/white">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

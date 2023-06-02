@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1005014440303",
+    "project_id": "mygame-959f4",
+    "storage_bucket": "mygame-959f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005014440303:android:10e9b82b323e02eda5309a",
+        "android_client_info": {
+          "package_name": "com.example.gamestrore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005014440303-tf5ipv7g7m80k0htrlavplerbsmnq4ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvo41HMHXind4Sav8ODm6kROGi5sbCITw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005014440303-tf5ipv7g7m80k0htrlavplerbsmnq4ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
